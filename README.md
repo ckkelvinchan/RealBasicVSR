@@ -11,6 +11,8 @@ Paper link: []()
 - Nov 2021: Initialize with video demos
 
 ## Video Demos
+Note that the demos have been compressed. The results are slightly infereior to the actual outputs. 
+
 https://user-images.githubusercontent.com/7676947/142833430-3dbde386-3e1f-438f-9dd6-7745c9cb50e8.mov  
 
 https://user-images.githubusercontent.com/7676947/142834252-4dcefb5d-b772-4fce-9c81-dc81be56f6f5.mov
