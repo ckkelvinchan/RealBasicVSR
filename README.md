@@ -1,17 +1,19 @@
 # RealBasicVSR
 
-This is the official repository of "Investigating Tradeoffs in Real-World Video Super-Resolution, arXiv". 
+\[[Paper]()\]
 
-Authors: *Kelvin C.K. Chan, Shangchen Zhou, Xiangyu Xu, Chen Change Loy*, Nanyang Technological University.
+This is the official repository of "Investigating Tradeoffs in Real-World Video Super-Resolution, arXiv". This repository contains *colab*, *video demos* and *updates* of our work. 
 
-Paper link: []()
+**Authors**: [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/), *Nanyang Technological University*
+
 
 ## News
 
 - Nov 2021: Initialize with video demos
 
+
 ## Video Demos
-Note that the demos have been compressed. The results are slightly infereior to the actual outputs. 
+The videos have been compressed. Therefore, the results are infereior to the actual outputs. 
 
 https://user-images.githubusercontent.com/7676947/142833430-3dbde386-3e1f-438f-9dd6-7745c9cb50e8.mov  
 
@@ -22,8 +24,6 @@ https://user-images.githubusercontent.com/7676947/142835061-f79d6b10-6530-4330-8
 
 
 https://user-images.githubusercontent.com/7676947/142836320-cd6a257b-3b97-4296-ac95-fcda043531f1.mov
-
-
 
 
 ## Code
