@@ -13,7 +13,7 @@ This is the official repository of "Investigating Tradeoffs in Real-World Video 
 
 
 ## Video Demos
-The videos have been compressed. Therefore, the results are infereior to the actual outputs. 
+The videos have been compressed. Therefore, the results are infereior to that of the actual outputs. 
 
 https://user-images.githubusercontent.com/7676947/142833430-3dbde386-3e1f-438f-9dd6-7745c9cb50e8.mov  
 
@@ -36,7 +36,7 @@ You can download the dataset using our Dropbox [link](https://www.dropbox.com/sh
 ## Citations
 ```
 @InProceedings{chan2021investigating,
-  author = {Chan, Kelvin C.K. and Zhou, Shangchen, Xu, Xiangyu and Loy, Chen Change},
+  author = {Chan, Kelvin C.K. and Zhou, Shangchen and Xu, Xiangyu and Loy, Chen Change},
   title = {Investigating Tradeoffs in Real-World Video Super-Resolution},
   booktitle = {arXiv},
   year = {2021}
