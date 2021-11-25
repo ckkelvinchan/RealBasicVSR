@@ -1,6 +1,6 @@
 # RealBasicVSR
 
-\[[Paper]()\]
+\[[Paper](https://arxiv.org/pdf/2111.12704.pdf)\]
 
 This is the official repository of "Investigating Tradeoffs in Real-World Video Super-Resolution, arXiv". This repository contains *colab*, *video demos* and *updates* of our work. 
 
@@ -38,7 +38,7 @@ You can download the dataset using our Dropbox [link](https://www.dropbox.com/sh
 @InProceedings{chan2021investigating,
   author = {Chan, Kelvin C.K. and Zhou, Shangchen and Xu, Xiangyu and Loy, Chen Change},
   title = {Investigating Tradeoffs in Real-World Video Super-Resolution},
-  booktitle = {arXiv},
+  booktitle = {arXiv preprint arXiv:2111.12704},
   year = {2021}
 }
 ```
