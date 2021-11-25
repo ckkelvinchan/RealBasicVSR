@@ -15,13 +15,14 @@ This is the official repository of "Investigating Tradeoffs in Real-World Video 
 ## Video Demos
 The videos have been compressed. Therefore, the results are infereior to that of the actual outputs. 
 
-https://user-images.githubusercontent.com/7676947/142833430-3dbde386-3e1f-438f-9dd6-7745c9cb50e8.mov  
+https://user-images.githubusercontent.com/7676947/143367432-89399fdb-212c-4be3-9b5e-21e1aaf1bbfd.mp4
 
-https://user-images.githubusercontent.com/7676947/142834252-4dcefb5d-b772-4fce-9c81-dc81be56f6f5.mov
+https://user-images.githubusercontent.com/7676947/143367537-e7d23013-0b8c-4864-a122-7e72fe288e02.mp4
 
-https://user-images.githubusercontent.com/7676947/142835061-f79d6b10-6530-4330-811d-0354f9cf06c9.mov
+https://user-images.githubusercontent.com/7676947/143369781-cb365cc8-0acc-4ef9-b3e6-64ba350ff54d.mp4
 
-https://user-images.githubusercontent.com/7676947/143367043-9e2b8ddc-a33e-4650-b184-eb48a9dc32cf.mp4
+https://user-images.githubusercontent.com/7676947/143368779-abe037a7-4d2a-48ba-b8bc-3a5f7484ee8d.mp4
+
 
 
 
