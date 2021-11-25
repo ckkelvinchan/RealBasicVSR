@@ -21,13 +21,7 @@ https://user-images.githubusercontent.com/7676947/143370350-91f751f3-0f33-4ee4-9
 
 https://user-images.githubusercontent.com/7676947/143370556-9e7019d4-e718-46af-859f-54d5576cd370.mp4
 
-https://user-images.githubusercontent.com/7676947/143370614-e3efe1e7-fa55-4ac0-bd7d-6aaa9c3f73c4.mp4
-
-
-
-
-
-
+https://user-images.githubusercontent.com/7676947/143370859-e0293b97-f962-476f-acf8-14fad27cea77.mp4
 
 ## Code
 This code is built upon [MMEditing](https://github.com/open-mmlab/mmediting). The code will appear in MMEditing soon. Please follow and star this repository and MMEditing for the latest news!
