@@ -50,12 +50,12 @@ This script supports both images and videos as inputs and outputs. You can simpl
 For example:
 1. Images as inputs and outputs
 ```
-python inference_realbasicvsr.py configs/realbasicvsr.py checkpoints/RealBasicVSR_x4.pth data/demo_000 results/demo_000
+python inference_realbasicvsr.py configs/realbasicvsr_x4.py checkpoints/RealBasicVSR_x4.pth data/demo_000 results/demo_000
 ```
 
 2. Video as input and output
 ```
-python inference_realbasicvsr.py configs/realbasicvsr.py checkpoints/RealBasicVSR_x4.pth data/demo_001.mp4 results/demo_001.mp4 --fps=12.5
+python inference_realbasicvsr.py configs/realbasicvsr_x4.py checkpoints/RealBasicVSR_x4.pth data/demo_001.mp4 results/demo_001.mp4 --fps=12.5
 ```
 
 ### Training
