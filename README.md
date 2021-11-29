@@ -59,7 +59,7 @@ pip install mmedit
 python inference_realbasicvsr.py ${CONFIG_FILE} ${CHECKPOINT_FILE} ${INPUT_DIR} ${OUTPUT_DIR} --max-seq-len=${MAX_SEQ_LEN} --is_save_as_png=${IS_SAVE_AS_PNG}  --fps=${FPS}
 ```
 
-This script supports both images and videos as inputs and outputs. You can simply change ${INPUT_DIR} and ${OUTPUT_DIR} to the paths corresponding to the video files, if you want to use videos as inputs and outputs.
+This script supports both images and videos as inputs and outputs. You can simply change ${INPUT_DIR} and ${OUTPUT_DIR} to the paths corresponding to the video files, if you want to use videos as inputs and outputs. But note that saving to videos may induce additional compression, which reduces output quality.
 
 For example:
 1. Images as inputs and outputs
