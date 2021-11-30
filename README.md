@@ -52,7 +52,7 @@ pip install mmedit
 ```
 
 ### Inference
-1. Download the pre-trained checkpoints from [here](https://www.dropbox.com/s/eufigxmmkv5woop/RealBasicVSR.pth?dl=0) to `checkpoints/`.
+1. Download the pre-trained weights to `checkpoints/`. ([Dropbox](https://www.dropbox.com/s/eufigxmmkv5woop/RealBasicVSR.pth?dl=0) / [Google Drive](https://drive.google.com/file/d/1OYR1J2GXE90Zu2gVU5xc0t0P_UmKH7ID/view))
 
 2. Run the following command:
 ```
