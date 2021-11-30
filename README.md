@@ -80,10 +80,10 @@ You can download the dataset using our Dropbox [link](https://www.dropbox.com/sh
 
 ## Citations
 ```
-@InProceedings{chan2021investigating,
+@article{chan2021investigating,
   author = {Chan, Kelvin C.K. and Zhou, Shangchen and Xu, Xiangyu and Loy, Chen Change},
   title = {Investigating Tradeoffs in Real-World Video Super-Resolution},
-  booktitle = {arXiv preprint arXiv:2111.12704},
+  journal = {arXiv preprint arXiv:2111.12704},
   year = {2021}
 }
 ```
