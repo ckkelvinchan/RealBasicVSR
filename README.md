@@ -12,7 +12,7 @@ This is the official repository of "Investigating Tradeoffs in Real-World Video 
 
 
 ## News
-
+- 2 Dec 2021: Colab demo released <a href="https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 - 29 Nov 2021: Test code released
 - 25 Nov 2021: Initialize with video demos
 
