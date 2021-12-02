@@ -52,7 +52,7 @@ pip install mmedit
 ```
 
 ### Inference
-1. Download the pre-trained weights to `checkpoints/`. ([Dropbox](https://www.dropbox.com/s/eufigxmmkv5woop/RealBasicVSR.pth?dl=0) / [Google Drive](https://drive.google.com/file/d/1OYR1J2GXE90Zu2gVU5xc0t0P_UmKH7ID/view))
+1. Download the pre-trained weights to `checkpoints/`. ([Dropbox](https://www.dropbox.com/s/eufigxmmkv5woop/RealBasicVSR.pth?dl=0) / [Google Drive](https://drive.google.com/file/d/1OYR1J2GXE90Zu2gVU5xc0t0P_UmKH7ID/view) / [OneDrive](https://entuedu-my.sharepoint.com/:u:/g/personal/chan0899_e_ntu_edu_sg/EfMvf8H6Y45JiY0xsK4Wy-EB0kiGmuUbqKf0qsdoFU3Y-A?e=9p8ITR))
 
 2. Run the following command:
 ```
@@ -76,7 +76,7 @@ python inference_realbasicvsr.py configs/realbasicvsr_x4.py checkpoints/RealBasi
 To be appeared.
 
 ## VideoLQ Dataset
-You can download the dataset using [Dropbox](https://www.dropbox.com/sh/hc06f1livdhutbo/AAAMPy92EOqVjRN8waT0ie8ja?dl=0) or [Google Drive](https://drive.google.com/drive/folders/1-1iJRNdqdFZWOnoUU4xG1Z1QhwsGwMDy?usp=sharing).
+You can download the dataset using [Dropbox](https://www.dropbox.com/sh/hc06f1livdhutbo/AAAMPy92EOqVjRN8waT0ie8ja?dl=0) / [Google Drive](https://drive.google.com/drive/folders/1-1iJRNdqdFZWOnoUU4xG1Z1QhwsGwMDy?usp=sharing) / [OneDrive](https://entuedu-my.sharepoint.com/:f:/g/personal/chan0899_e_ntu_edu_sg/ErSugvUBxoBMlvSAHhqT5BEB9-4ZaqxzJIcc9uvVa8JGHg?e=WpHJTc).
 
 ## Citations
 ```
