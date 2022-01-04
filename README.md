@@ -12,6 +12,7 @@ This is the official repository of "Investigating Tradeoffs in Real-World Video 
 
 
 ## News
+- 4 Jan 2022: Training code released
 - 2 Dec 2021: Colab demo released <a href="https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 - 29 Nov 2021: Test code released
 - 25 Nov 2021: Initialize with video demos
@@ -72,13 +73,29 @@ python inference_realbasicvsr.py configs/realbasicvsr_x4.py checkpoints/RealBasi
 python inference_realbasicvsr.py configs/realbasicvsr_x4.py checkpoints/RealBasicVSR_x4.pth data/demo_001.mp4 results/demo_001.mp4 --fps=12.5
 ```
 
+### Crop REDS dataset into sub-images
+We crop the REDS dataset into sub-images for faster I/O. Please follow the instructions below:
+1. Put the original REDS dataset in `./data`
+2. Run the following command:
+```
+python crop_sub_images.py --data-root ./data/REDS  -scales 4
+```
 ### Training
-To be appeared. Will be released by the end of Dec 2021.
+The training is divided into two stages:
+1. Train a model without perceptual loss and adversarial loss using [realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py](realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py).
+```
+mim train mmedit configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py --gpus 8 --launcher pytorch
+```
+
+2. Finetune the model with perceptual loss and adversarial loss using [realbasicvsr_c64b20_1x30x8_lr5e-5_150k_reds.py](realbasicvsr_c64b20_1x30x8_lr5e-5_150k_reds.py). (You may want to replace `load_from` in the configuration file with your checkpoints pre-trained at the first stage
+```
+mim train mmedit configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py --gpus 8 --launcher pytorch
+```
+
+**Note**: We use UDM10 with bicubic downsampling for validation. You can download it from [here](https://www.terabox.com/web/share/link?surl=LMuQCVntRegfZSxn7s3hXw&path=%2Fproject%2Fpfnl).
 
 ### Generating Video Demo
 Assuming you have created two sets of images (e.g. input vs output), you can use `generate_video_demo.py` to generate a video demo. Note that the two sets of images must be of the same resolution. An example has been provided in the code.
-
-
 
 ## VideoLQ Dataset
 You can download the dataset using [Dropbox](https://www.dropbox.com/sh/hc06f1livdhutbo/AAAMPy92EOqVjRN8waT0ie8ja?dl=0) / [Google Drive](https://drive.google.com/drive/folders/1-1iJRNdqdFZWOnoUU4xG1Z1QhwsGwMDy?usp=sharing) / [OneDrive](https://entuedu-my.sharepoint.com/:f:/g/personal/chan0899_e_ntu_edu_sg/ErSugvUBxoBMlvSAHhqT5BEB9-4ZaqxzJIcc9uvVa8JGHg?e=WpHJTc).
