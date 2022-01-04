@@ -84,13 +84,15 @@ python crop_sub_images.py --data-root ./data/REDS  -scales 4
 The training is divided into two stages:
 1. Train a model without perceptual loss and adversarial loss using [realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py](realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py).
 ```
-./tools/dist_train.sh configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py 8
+mim train mmedit configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py --gpus 8 --launcher pytorch
 ```
 
 2. Finetune the model with perceptual loss and adversarial loss using [realbasicvsr_c64b20_1x30x8_lr5e-5_150k_reds.py](realbasicvsr_c64b20_1x30x8_lr5e-5_150k_reds.py). (You may want to replace `load_from` in the configuration file with your checkpoints pre-trained at the first stage
 ```
-./tools/dist_train.sh configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py 8
+mim train mmedit configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py --gpus 8 --launcher pytorch
 ```
+
+**Note**: We use UDM10 with bicubic downsampling for validation. You can download it from [here](https://www.terabox.com/web/share/link?surl=LMuQCVntRegfZSxn7s3hXw&path=%2Fproject%2Fpfnl).
 
 ### Generating Video Demo
 Assuming you have created two sets of images (e.g. input vs output), you can use `generate_video_demo.py` to generate a video demo. Note that the two sets of images must be of the same resolution. An example has been provided in the code.
