@@ -78,7 +78,7 @@ We crop the REDS dataset into sub-images for faster I/O. Please follow the instr
 1. Put the original REDS dataset in `./data`
 2. Run the following command:
 ```
-python crop_sub_images.py --data-root ./data/REDS  -scales 4
+python crop_sub_images.py --data-root ./data/REDS  --scales 4
 ```
 ### Training
 The training is divided into two stages:
