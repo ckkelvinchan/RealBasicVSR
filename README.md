@@ -89,7 +89,7 @@ mim train mmedit configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py --
 
 2. Finetune the model with perceptual loss and adversarial loss using [realbasicvsr_c64b20_1x30x8_lr5e-5_150k_reds.py](realbasicvsr_c64b20_1x30x8_lr5e-5_150k_reds.py). (You may want to replace `load_from` in the configuration file with your checkpoints pre-trained at the first stage
 ```
-mim train mmedit configs/realbasicvsr_wogan_c64b20_2x30x8_lr1e-4_300k_reds.py --gpus 8 --launcher pytorch
+mim train mmedit configs/realbasicvsr_c64b20_1x30x8_lr5e-5_150k_reds.py --gpus 8 --launcher pytorch
 ```
 
 **Note**: We use UDM10 with bicubic downsampling for validation. You can download it from [here](https://www.terabox.com/web/share/link?surl=LMuQCVntRegfZSxn7s3hXw&path=%2Fproject%2Fpfnl).
