@@ -1,4 +1,4 @@
-# RealBasicVSR
+# RealBasicVSR (CVPR 2022)
 
 \[[Paper](https://arxiv.org/pdf/2111.12704.pdf)\]
 
@@ -8,10 +8,13 @@ This is the official repository of "Investigating Tradeoffs in Real-World Video 
 
 **Acknowedgement**: Our work is built upon [MMEditing](https://github.com/open-mmlab/mmediting). The code will also appear in MMEditing soon. Please follow and star this repository and MMEditing!
 
+**Please feel free to ask any questions. I am currently busy working on some other stuff but will try my best to reply. Plese star also the repository of [BasicVSR++](https://github.com/ckkelvinchan/BasicVSR_PlusPlus), which is also accepted to CVPR 2022!** 
+
 
 
 
 ## News
+- 3 Mar 2022: Our paper has been accepted to CVPR 2022
 - 4 Jan 2022: Training code released
 - 2 Dec 2021: Colab demo released <a href="https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 - 29 Nov 2021: Test code released
@@ -102,10 +105,10 @@ You can download the dataset using [Dropbox](https://www.dropbox.com/sh/hc06f1li
 
 ## Citations
 ```
-@article{chan2021investigating,
+@article{chan2022investigating,
   author = {Chan, Kelvin C.K. and Zhou, Shangchen and Xu, Xiangyu and Loy, Chen Change},
   title = {Investigating Tradeoffs in Real-World Video Super-Resolution},
-  journal = {arXiv preprint arXiv:2111.12704},
-  year = {2021}
+  journal = {IEEE Conference on Computer Vision and Pattern Recognition},
+  year = {2022}
 }
 ```
