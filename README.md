@@ -14,6 +14,7 @@ This is the official repository of "Investigating Tradeoffs in Real-World Video 
 
 
 ## News
+- 11 Mar 2022: Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/akhaliq/RealBasicVSR)
 - 3 Mar 2022: Our paper has been accepted to CVPR 2022
 - 4 Jan 2022: Training code released
 - 2 Dec 2021: Colab demo released <a href="https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
