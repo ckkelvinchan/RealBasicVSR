@@ -106,10 +106,10 @@ You can download the dataset using [Dropbox](https://www.dropbox.com/sh/hc06f1li
 
 ## Citations
 ```
-@article{chan2022investigating,
+@inproceedings{chan2022investigating,
   author = {Chan, Kelvin C.K. and Zhou, Shangchen and Xu, Xiangyu and Loy, Chen Change},
   title = {Investigating Tradeoffs in Real-World Video Super-Resolution},
-  journal = {IEEE Conference on Computer Vision and Pattern Recognition},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
   year = {2022}
 }
 ```
